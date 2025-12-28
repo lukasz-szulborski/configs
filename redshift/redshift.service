@@ -1,0 +1,10 @@
+[Unit]
+Description=Redshift
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/redshift -c /home/lukasz/.config/redshift.conf
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

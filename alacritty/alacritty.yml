@@ -1,0 +1,9 @@
+window:
+  opacity: 0.85
+Font:
+  normal:
+    family: 0xProto Nerd Mono
+    style: Regular
+  bold:
+    family: 0xProto Nerd Mono
+    style: Bold
